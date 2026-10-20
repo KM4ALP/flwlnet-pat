@@ -24,3 +24,5 @@ Build the code using the source, for your local system, or use the built flwlnet
 * `lint`: run linter
 * `format`: run format
 * `release`: run fyne release build process
+* `podman-init-<os>-<arch>`: create podman cross compiler image
+* `podman-build-<os>-<arch>`: cross compile using podman image

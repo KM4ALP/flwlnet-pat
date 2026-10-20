@@ -1,0 +1,21 @@
+FROM docker.io/library/golang:1.27
+
+RUN apt update
+
+RUN apt install -y \
+    gcc \
+    libgl1-mesa-dev \
+    libwayland-dev \
+    libx11-dev \
+    libxcursor-dev \
+    libxext-dev \
+    libxi-dev \
+    libxinerama-dev \
+    libxkbcommon0   \
+    libxkbcommon-dev \
+    libxrandr-dev \
+    libxxf86vm-dev \
+    pkg-config \
+    xkb-data 
+
+RUN go install fyne.io/tools/cmd/fyne@latest

@@ -1,0 +1,9 @@
+[Details]
+Icon = "assets/icon.png"
+Name = "FLWLNET - Pat"
+ID = "com.github.km4alp.flwlnet-pat"
+Version = "1.0.0"
+Build = 1
+
+[Migrations]
+fyneDo = true
