@@ -4,6 +4,8 @@ Florida Winlink Net registry files for Pat P2P hosts.
 
 Create an RMS Express compatible global folder registry file for weekly submission to w4akh.net
 
+**For pre-compiled binaries** [Releases](https://github.com/KM4ALP/flwlnet-pat/releases)
+
 ## Interface
 
 ![main window](assets/screenshot.png)
